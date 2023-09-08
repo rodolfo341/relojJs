@@ -31,3 +31,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.clock::before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 9;
+}
