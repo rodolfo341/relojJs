@@ -54,3 +54,12 @@ body {
   height: 160px;
   transform: rotateZ(0deg);
 }
+
+.hr,
+.min,
+.sec {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+}
+
