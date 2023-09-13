@@ -39,7 +39,7 @@ body {
   height: 15px;
   background-color: #fff;
   border-radius: 50%;
-  z-index: 9;
+  z-index: 99;
 }
 
 .clock .hour,
@@ -63,3 +63,12 @@ body {
   justify-content: center;
 }
 
+.hr::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 80px;
+  background: #494c97;
+  border-radius: 6px 6px 0 0;
+  z-index: 10;
+}
