@@ -47,3 +47,10 @@ body {
 .clock .sec{
   position: absolute;
 }
+
+.clock .hour,
+.hr {
+  width: 160px;
+  height: 160px;
+  transform: rotateZ(0deg);
+}
