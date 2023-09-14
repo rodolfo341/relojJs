@@ -31,3 +31,6 @@ body {
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color:aqua;
+}
